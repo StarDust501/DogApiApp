@@ -87,7 +87,7 @@ fun DogPhotoCard(photo: DogPhoto, modifier: Modifier = Modifier){
                 .build(),
             contentDescription = stringResource(R.string.dog_photo),
             modifier = modifier,
-            error = painterResource(R.drawable.error_404),
+            error = painterResource(R.drawable.download__21__removebg_preview),
             placeholder = painterResource(R.drawable.______o40_removebg_preview),
             contentScale = ContentScale.Fit
         )
